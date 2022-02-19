@@ -1,0 +1,42 @@
+html {
+    --black: #000;
+    --yellow: #EEFE00;
+    --tan-light: #E4E2DC;
+    --tan-dark: #C1B9AF;
+}
+
+header {
+    background-image: url(https://drive.google.com/open?id=1IlOGTuVsI25Fi8AwfkRCBOlT6QrPtOe_&authuser=aisalin2%40asu.edu&usp=drive_fs);
+    background-size: cover;
+    text-align: center;
+    height: 50vw;
+  }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #000; 
+}
+
+ h2 {
+     font-size: 30px;
+     font-weight: 700;
+     letter-spacing: 1px;
+ } 
+
+ h3 {
+     font-size: 23px;
+     font-weight: 700;
+     letter-spacing: 1px;
+ }
+
+ h4 {
+     font-size: 16px;
+     font-weight: 700;
+     letter-spacing: 1px;
+ }
