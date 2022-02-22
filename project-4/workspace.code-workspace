@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "css copy"
+		},
+		{
+			"path": "images"
+		},
+		{
+			"path": "img copy"
+		},
+		{
+			"path": "js copy"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css copy"
+	}
+}
