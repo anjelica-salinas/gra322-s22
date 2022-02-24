@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<title>Charlie's Cafe</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/header-image.jpg");
+  min-height: 90%;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#myMap" class="w3-bar-item w3-button">CONTACT</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <!-- <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
+  </div> -->
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font: size 30px;50px">Damn Fine Cup of Coffee</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:100px"><b><br>Damn Fine Cup of Coffee</b></span>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Order Now</a></p>
+  </div>
+</header>
+
+<!-- Menu Container -->
+<div class="w3-row w3-padding-64" id="menu">
+    <h2 class="w3-center " style="margin-bottom:64px">An Italian style coffee bar located in Arizona Sate University's Design School</h2>
+    <h1 class="w3-center">Menu</h1><br>
+</div>
+<div class="w3-row" id="espresso">
+    <div class="w3-col l6 w3-padding-large">
+        <img src="./images/c2.png" class="w3-round w3-image w3-opacity-min" alt="Coffee 2" style="width:70%">
+    </div>
+    <div class="w3-col l6 w3-padding-large">
+        <h3 class="w3-col 24">Espresso Drinks</h3>
+        <ul style="list-style: none;"> 
+            <li>Americano</li>
+            <li>Drip Coffee</li>
+            <li>Espresso</li>
+            <li>Cafe Latte</li>
+            <li>Cafe Mocha</li>
+            <li>Cappuccino</li>
+            <li>Blend</li>
+            <li>Chai</li>
+            <li>Dirty Chai</li>
+            <li>Macchiato</li>
+            <li>Nitro Cold Brew</li>
+            <li>Affogato</li>
+            <li>Cold Brew</li>  
+        </ul>  
+    </div>
+</div>
+
+<div class="w3-row" id="other">
+    <div class="w3-col l6 w3-padding-large">
+        <h3 class="w3-col 24">Other Drinks</h3>
+        <ul style="list-style:none;">
+            <li>Passion Tea</li>
+            <li>Black Tea</li>
+            <li>Green Tea</li>
+            <li>White Tea</li>
+            <li>Matcha</li>
+            <li>Blended Tea</li>
+            <li>Hot Chocolate</li>
+            <li>Season Smoothie</li>
+            <li>Red Bull Fusion</li>
+            <li>Soda</li>
+            <li>Water</li>
+            <li>Protein Shake</li>
+            <li>Juices</li>
+            <li>Red Bull</li>
+            <li>Yerba Mate</li>
+            <li>Naked Juice</li>
+            <li>Kombucha</li>
+        </ul>
+    </div>
+    <div class="w3-col l6 w3-padding-large">
+        <img src="./images/c3.png" class="w3-round w3-image w3-opacity-min" alt="Coffee 3" style="width:100%">
+    </div>
+</div>
+
+<div class="w3-row" id="food">
+    <div class="w3-col l6 w3-padding-large">
+        <img src="./images/c1.png" class="w3-round w3-image w3-opacity-min" alt="Coffee 3" style="width:100%">
+    </div>
+    <div class="w3-col l6 w3-padding-large">
+        <h3 class="w3-col 24">Food</h3>
+        <h4>Panini</h4>
+        <ul style="list-style:none;">
+            <li>Italiano</li> 
+            <li>Seville</li>
+            <li>Milano</li> 
+            <li>Caprese</li> 
+            <li>Turkey Florentine</li>
+            <li>Vegetarian</li> 
+            <li>Mediterranean Chicken</li>
+        </ul>
+        <h4>Bakery</h4>
+        <ul style="list-style:none;">
+            <li>Bagel</li>
+            <li>Muffin</li> 
+            <li>Cinnamon Roll</li> 
+            <li>Gelato</li>
+            <li>Grab-N-Go Snack</li>
+            <li>Jimmy Dean Sandwich</li> 
+        </ul> 
+    </div>
+</div>
+
+<!-- <div class="w3-row" style="padding-left: 50px;" id="location">
+    
+</div> -->
+<div class="w3-row" >
+    <h1 class="w3-padding-large">Location</h1>
+    <div style="display:flex; align-items: center;">
+        <div>
+            <img src="./images/location.png" alt="Location" style="scale: 0.4;"/>
+        </div>
+        <div >
+            <h4>Hours</h4>
+            <p>Monday - Friday:  7 a.m. — 5 p.m.</p> 
+            <p>Saturday - Sunday: Closed</p>
+            <h4>Address</h4>
+            <p>810 S. Forest Mall</p>
+            <p>Tempe,. AZ 85281</p>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge" style="margin-left: ;">
+  <p>Contact Us</p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
