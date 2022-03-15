@@ -3,6 +3,7 @@ html {
     --yellow: #eefe00;
     --tan-light: #e4e2dc;
     --tan-dark: #c1b9af;
+    overflow-x: hidden;
   }
   
   body {
@@ -143,6 +144,7 @@ html {
   
   .table-1 {
     padding-top: 1rem;
+    padding-right: 3rem;
   }
   
   .table-1 tbody tr td:first-child {
@@ -163,10 +165,12 @@ html {
   
   .table-2 {
     padding-top: 1.5rem;
+    padding-right: 3rem;
   }
 
   td:first-child {
-    width: 80%;
+    width: 85%;
+    padding-right: 3rem;
   }
   
   .menu-h2-section-3 {
@@ -337,6 +341,11 @@ img {
   padding-top: 2rem;
 }
 
+.footer-content a {
+ color: var(--yellow)
+}
+
+
 .footer-social {
   padding-top: 1rem;
 }
@@ -397,10 +406,10 @@ span + span {
   }
 
   .image-2 {
-  height: 80%;
-  width: 85%;
-  padding-top: 3rem;
-  margin-right: -40vw;
+    height: 70%;
+    width: 70%;
+    padding-top: 3rem;
+    margin-right: -18vw;
   }
 
   .menu3-container {
@@ -445,6 +454,7 @@ span + span {
 
   .column-2-footer {
     padding-top: 1rem;
+}
 }
 
 
