@@ -3,7 +3,7 @@ html {
     --yellow: #eefe00;
     --tan-light: #e4e2dc;
     --tan-dark: #c1b9af;
-    overflow-x: hidden;
+      overflow-x: hidden;
   }
   
   body {
@@ -410,6 +410,7 @@ span + span {
     width: 70%;
     padding-top: 3rem;
     margin-right: -18vw;
+    overflow-x: hidden;
   }
 
   .menu3-container {
@@ -450,6 +451,7 @@ span + span {
     grid-template-columns: 1fr;
     width: 235vh;
     height: 500px;
+    overflow-x: hidden;
   }
 
   .column-2-footer {
