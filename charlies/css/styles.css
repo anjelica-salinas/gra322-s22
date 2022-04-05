@@ -367,7 +367,7 @@ span + span {
 }
 
 /* mobile */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 390px) {
   .grid {
     grid-template-columns: 1fr;
   }
