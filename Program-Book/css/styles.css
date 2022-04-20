@@ -3,6 +3,7 @@ html {
     --black: #000;
     --gray: #707070;
     --light-gray: #E3E3E3;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -13,10 +14,10 @@ header {
     text-decoration: none;
 }
 
-.nav-links {
+a {
   color: #000;
   text-decoration: none;
-  background-image: linear-gradient(#000, #000), linear-gradient(#000, #000);
+  background-image: linear-gradient(#000,#A37C40), linear-gradient(#ccc,#ccc);
   background-position: 0% 100%, 0 100%;
   background-repeat: no-repeat;
   background-size: 0% 2px, 100% 1px;
@@ -39,6 +40,10 @@ h2 {
     text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .project-number {
   color: var(--gray);
   font-size: small;
@@ -52,13 +57,15 @@ h2 {
 
 }
 
+.wrapper {
+  margin: 3rem;
+}
+
 body {
     font-family: "Montserrat", sans-serif;
     color:var(--black);
     font-weight: 400;
     font-size: 16px;
-    margin-left: 2rem;
-    margin-right: 3rem;
     text-decoration: none;
   }
 
@@ -68,7 +75,9 @@ body {
 
 .footer {
     background-color: #E3E3E3;
-    padding-top: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
     width: 100%;
   }
 
@@ -87,7 +96,16 @@ img {
     gap: 1rem;
     margin: 0 auto;
     padding: 1rem;
-    margin-bottom: 8rem;
+    margin-bottom: 7rem;
+}
+
+.scroll {
+  border: none;
+  font-size: 10px;  
+}
+
+.descriptions {
+  padding-top: 2rem;
 }
 
 /* Localist Coffee Styling */
@@ -99,12 +117,7 @@ img {
     padding: 1rem;
 }
 
-* {
-  box-sizing: border-box;
-}
-body {
-  overflow-x: hidden;
-}
+
 img {
   display: block;
   max-width: 100%;
