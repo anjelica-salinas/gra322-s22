@@ -101,6 +101,14 @@ img {
   margin-bottom: 2rem;
 }
 
+.wireframe-sketches {
+    padding-top: 2rem;   
+}
+
+.digital-sketches {
+    padding-top: 1rem;
+}
+
 /* Near Eden Styling */
 .Near-Eden-Grid {
     display: grid;
@@ -131,12 +139,23 @@ img {
 
 
 /* Localist Coffee Styling */
-.Localist-Grid{
+.Localist-Grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     margin: 0 auto;
     padding: 1rem;
+    padding-top: 2rem;
+}
+
+.Localist-Grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 0 auto;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
 }
 
 img {
@@ -162,6 +181,7 @@ img {
 .titles-localist {
   padding-top: 1rem;
 }
+
 
 /* Horizontal scroll */
 
@@ -259,7 +279,15 @@ img {
   gap: 1rem;
   margin: 0 auto;
   padding: 1rem;
+  padding-bottom: 3rem;
 }
 
+.earthly-paragraph {
+    padding-bottom: 1rem;
+}
+
+.earthly-title {
+    padding-top: 3rem;
+}
 
 /* Charlie's Cafe Styling */
