@@ -27,7 +27,6 @@ html {
     color: #000;
     font-size: 45px;
     font-weight: 700;
-    width: 350px;
     margin-bottom: 5rem;
   }
   
@@ -117,10 +116,6 @@ html {
     justify-content: center;
   }
   
-  .about p {
-    width: 550px;
-  }
-  
   .text {
     padding-top: 5rem;
     padding-left: 100px;
@@ -137,6 +132,11 @@ html {
   }
   
   .menu-items {
+    background-image: url(../images/c2.png);
+    background-position: top left;
+    background-size: 40%;
+    background-size: 40%;
+    background-repeat: no-repeat;
     padding-bottom: 5rem;
     display: flex;
     justify-content: space-between;
@@ -159,6 +159,10 @@ html {
   }
   
   .menu-items-2 {
+    background-image: url(../images/c3.png);
+    background-position: top right;
+    background-size: 40%;
+    background-repeat: no-repeat;
     padding-left: 10%;
     padding-bottom: 4rem;
   }
@@ -217,6 +221,10 @@ html {
   }
   
   .menu-items-3 {
+    background-image: url(../images/c1.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 40%;
     padding-bottom: 5rem;
   }
   
@@ -237,7 +245,7 @@ html {
 .menu3-container {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     padding-right: 100px;
 }
 
@@ -368,18 +376,19 @@ span + span {
 
 /* mobile */
 @media screen and (max-width: 390px) {
+
+  .header {
+    padding: 0 40px;
+  }
   .grid {
     grid-template-columns: 1fr;
   }
 
-  .header {
-    width: 500px;
-  }
-
   .menu1-container {
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     padding-right: 50px;
+    margin-left: auto;
   }
 
   .text {
@@ -415,8 +424,9 @@ span + span {
 
   .menu3-container {
   flex-direction: column;
-  width: 50%;
-  padding-right: 50px;
+  width: 60%;
+  padding-right: 20px;
+  margin: 0px;
   }
 
   .image-3 {
@@ -449,7 +459,7 @@ span + span {
 
   .footer {
     grid-template-columns: 1fr;
-    width: 235vh;
+    /* width: 235vh; */
     height: 500px;
     overflow-x: hidden;
   }
@@ -469,6 +479,10 @@ span + span {
 
   .hours {
     padding-bottom: 1rem;
+  }
+
+  .footer {
+    background-color: var(--tan-dark);
   }
 
   .footer-title {
